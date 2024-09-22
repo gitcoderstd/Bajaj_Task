@@ -24,7 +24,7 @@ export const App = () => {
     }
 
     try {
-      const res = await axios.post('http://localhost:3020/bfhl', {
+      const res = await axios.post('https://bajaj-task-cuqk.onrender.com/bfhl', {
         data: JSON.parse(jsonInput).data,
       });
 

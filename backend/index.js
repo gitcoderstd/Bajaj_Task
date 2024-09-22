@@ -10,9 +10,9 @@ const PORT = 3020;
 app.post("/bfhl", (req, res) => {
   const { data, file_b64 } = req.body;
   console.log(req.body);
-  const user_id = data.user_id;
-  const email = data.email;
-  const roll_number = data.roll_number;
+  const user_id = "Ishita_Bhatnagar_30082002";
+  const email = "ib8073@srmist.edu.in";
+  const roll_number = "RA2111029010060";
 
   // Separate numbers and alphabets
   const numbers = data.filter((item) => !isNaN(item));
